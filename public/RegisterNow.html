@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+
+    <!--custom ccs file link-->
+    <link rel="stylesheet" href="Style.css">
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom js cdn link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--custom js file link-->
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<!--header section starts-->
+<header>
+    <a href="#" class="logo"><span>HealthCare</span>Association</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="#About us">About us</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="./Gallery.html">Gallery</a></li>
+            <li><a href="./RegisterNow.html" style="color: #ff1a1a;">Become member</a></li>
+        </ul>
+    </nav>
+</header>
+<!--header section ends-->
+<!--<section>-->
+<!--    <div>-->
+<!--        <a href="images/nurse-3624463_960_720.png" target="_blank">-->
+<!--            <img class="img-fluid" style="padding: 10px; padding-top: 0px;" src="images/nurse-3624463_960_720.png">-->
+<!--        </a>-->
+<!--    </div>-->
+<!--</section>-->
+<!--home section starts here-->
+
+<section style="margin-top: 50px">
+    <h3 style="padding-bottom: 30px;font-size: x-large;font-weight: bold;">Register Now</h3>
+    <form name="Register Now" action="" method="post" >
+        <div style="display: grid;grid-template-columns: repeat(4,auto);grid-gap: 10px;font-size: medium;font-weight: bold">
+            <div>
+                <label>First Name<br>
+                    <input class="form-text-input" type="text" name="First Name"  placeholder="your first name"><br>
+
+                </label>
+            </div>
+            <div>
+                <label>Last Name<br>
+                    <input class="form-text-input" type="text" name="Last Name"  placeholder="your last name"><br>
+
+                </label>
+            </div>
+            <div>
+                <label>Email<br>
+                    <input class="form-text-input" type="email" name="Email" placeholder="example@gmail.com"><br>
+                </label>
+            </div>
+            <div>
+                <label>Phone No<br>
+                    <input class="form-text-input" type="number"  name="Phone No"><br>
+                </label>
+            </div>
+            <div>
+                <label>Area Of Expertise/Practice<br>
+                    <select  class="form-text-input">
+                        <option value="">                        </option>
+                        <option value="Allergist">Allergist</option>
+                        <option value="Anesthesiologist">Anesthesiologist</option>
+                        <option value="Cardiac surgeon">Cardiac surgeon</option>
+                        <option value="Cardiologist">Cardiologist</option>
+                        <option value="Dermatologist">Dermatologist</option>
+                        <option value="Primary care doctor">Primary care doctor</option>
+                        <option value="Family practice physician">Family practice physician</option>
+                        <option value="Infectious disease doctor">Infectious disease doctor</option>
+                        <option value="Immunologist">Immunologist</option>
+                        <option value="Neurologist">Neurologist</option>
+                        <option value="Pathologist">Pathologist</option>
+                        <option value="Psychiatrist">Psychiatrist</option>
+                        <option value="Radiologist">Radiologist</option>
+                        <option value="Urologist">Urologist</option>
+                        <option value="Rheumatologist">Rheumatologist</option>
+                    </select>
+                    <br>
+                </label>
+            </div>
+            <div>
+                <label>Organization Name<br>
+                    <input class="form-text-input" type="text" name="Organization Name"><br>
+                </label>
+            </div>
+            <div>
+                <label>Organization Type<br>
+                    <select class="form-text-input">
+                        <option value="">                        </option>
+                        <option value="Academic Institution/University">Academic Institution/University</option>
+                        <option value="Association">Association</option>
+                        <option value="Charity/NGOs">Charity/NGOs</option>
+                        <option value="Military">Military</option>
+                        <option value="Training College">Training College</option>
+                        <option value="Privately Owned">Privately Owned</option>
+                        <option value="Public/State Owned">Public/State Owned</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br>
+                </label>
+            </div>
+        </div>
+    </form>
+    <a onclick="alert('User Registered!')" style="max-width: 200px;margin-top: 20px" href="#" class="btn">Register</a>
+    <input type="reset" name="reset" value="Reset" class="btn" onclick="confirm('you want to clear !')">
+</section>
+
+<!--footer section starts here-->
+<div id="footer1" class="footer1" style="text-align: center;background: #222;">
+    <div class="share" style="display: flex;align-items: center;justify-content: center;flex-wrap: wrap;padding: 2rem 0;">
+        <a style="color: #4267B2; font-size: 2rem;padding: 2rem; " href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a style="color: #ff1a1a; font-size: 2rem;padding: 2rem; " href="#"> <i class="fab fa-youtube" ></i> youtube</a>
+        <a style="color: #1DA1F2; font-size: 2rem;padding: 2rem; " href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a style="color: #833AB4; font-size: 2rem;padding: 2rem; " href="#"> <i class="fab fa-instagram"></i> instagram </a>
+    </div>
+    <div class="press">
+        <marquee>
+            <span><h1 style="color: greenyellow;min-height: 2rem">International Public Health Management Development Program.For More Information Please Contact Us on Above Details </h1></span>
+        </marquee>
+    </div>
+    <h1 class="credit" style="padding: 2rem 1rem;font-size: 3rem;color: #fff;background: #111;">Created by <a href="#" style="color: #ff1a1a">EZDS Ashish💕😍</a> All Rights Reserved!! </h1>
+</div>
+</body>
+</html>
+
+
